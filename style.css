@@ -85,6 +85,37 @@ section {
   margin: auto;
 }
 
+.about_content{
+  display:flex;
+  gap:0;
+  height:300px;
+  width:100%;
+
+}
+
+.about_content .about_img{
+  height:100%;
+  width:30%;
+}
+
+.about_img img{
+  height:100%;
+  width:100%;
+}
+
+.about_content .about_text{
+  width:70%;
+}
+
+.about_text h2{
+  padding:0px 15px;
+}
+
+.about_text p {
+  font-size:1.01rem;
+  padding:5px 15px;
+}
+
 section .skills-list{
   width:100%;
   list-style-type: none;
